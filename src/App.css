@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  color: aquamarine;
+  box-sizing: border-box;
+  font-family: 'Inter',sans-serif;
+}
+
+.app-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.app-container h1{
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(26, 163, 226);
+  border-bottom: 1px solid #06100a;
+  padding: 10px 10px;
+}
+.qr-code-image{
+   padding: 5px;
+   box-shadow: 0 0 10px rgb(85, 18, 18);
+  size: 0px;
+}
+
+
+.input-lable {
+  display: block;
+  margin-top: 10px;
+  margin-bottom:  8px;
+  color: rgb(26, 163, 226);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+input[type = 'text'] {
+  padding: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid rgb(26, 163, 226);
+  border-radius: 5px;
+  color: rgb(26, 163, 226);
+}
+
+button{
+  padding: 15px 20px;
+  font-size: 18px;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ;
+
+}
+
+
+.GB{
+  background-color: rgb(26, 163, 226);
+}
+.GB:disabled{
+  background-color: rgb(103, 153, 160);
+  cursor: not-allowed;
+}
+.GB:hover{
+  background-color: rgb(163, 210, 210);
+}
+
+.DB{
+  background-color: rgb(82, 161, 47);
+  margin-left: 10px;
+}
+.DB:hover{
+  background-color: rgb(163, 210, 210);
+}
+
+.footer{
+  margin-top: 10px;
+  color: #2eafcf;
+}
